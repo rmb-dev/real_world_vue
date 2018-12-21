@@ -63,13 +63,20 @@ button {
 
 .form input {
   width: 48%;
+  box-sizing: border-box;
+  padding: 20px;
 }
 
 .form textarea {
   width: 100%;
+  box-sizing: border-box;
+  padding: 20px;
 }
 
 .form input::-webkit-input-placeholder, .form
+.form input::-moz-placeholder,
+.form input:-moz-placeholder,
+.form input:-ms-input-placeholder,
 
 .grid-item-bg {
   background-image: url(../img/bg.png);
